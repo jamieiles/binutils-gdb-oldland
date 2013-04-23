@@ -483,6 +483,8 @@ TARGET_LIBOPCODES_CFILES = \
 	nios2-dis.c \
 	nios2-opc.c \
 	ns32k-dis.c \
+	oldland-dis.c \
+	oldland-opc.c \
 	or1k-asm.c \
 	or1k-desc.c \
 	or1k-dis.c \
@@ -883,6 +885,8 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/nios2-dis.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/nios2-opc.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/ns32k-dis.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/oldland-dis.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/oldland-opc.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/or1k-asm.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/or1k-desc.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/or1k-dis.Plo@am__quote@

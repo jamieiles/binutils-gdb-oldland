@@ -136,6 +136,7 @@ ALL_MACHINES = \
 	cpu-nds32.lo \
 	cpu-nios2.lo \
 	cpu-ns32k.lo \
+	cpu-oldland.lo \
 	cpu-or1k.lo \
 	cpu-pdp11.lo \
 	cpu-pj.lo \
@@ -220,6 +221,7 @@ ALL_MACHINES_CFILES = \
 	cpu-nds32.c \
 	cpu-ns32k.c \
 	cpu-nios2.c \
+	cpu-oldland.c \
 	cpu-or1k.c \
 	cpu-pdp11.c \
 	cpu-pj.c \
@@ -347,6 +349,7 @@ BFD32_BACKENDS = \
 	elf32-mt.lo \
 	elf32-nds32.lo \
 	elf32-nios2.lo \
+	elf32-oldland.lo \
 	elf32-or1k.lo \
 	elf32-pj.lo \
 	elf32-ppc.lo \
@@ -534,6 +537,7 @@ BFD32_BACKENDS_CFILES = \
 	elf32-mt.c \
 	elf32-nds32.c \
 	elf32-nios2.c \
+	elf32-oldland.c \
 	elf32-or1k.c \
 	elf32-pj.c \
 	elf32-ppc.c \

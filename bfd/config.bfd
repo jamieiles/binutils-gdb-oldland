@@ -1161,6 +1161,7 @@ case "${targ}" in
   nios2eb-*-*)
     targ_defvec=nios2_elf32_be_vec
     targ_selvecs=nios2_elf32_le_vec
+
     ;;
 
   nios2el-*-*)
@@ -1171,6 +1172,10 @@ case "${targ}" in
   nios2-*-*)
     targ_defvec=nios2_elf32_le_vec
     targ_selvecs=nios2_elf32_be_vec
+    ;;
+
+  oldland-*-elf)
+    targ_defvec=oldland_elf32_le_vec
     ;;
 
   or1k-*-elf | or1k-*-linux* | or1k-*-rtems*)

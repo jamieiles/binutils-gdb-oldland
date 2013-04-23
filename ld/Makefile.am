@@ -249,6 +249,7 @@ ALL_EMULATION_SOURCES = \
 	eelf32moxie.c \
 	emoxiebox.c \
 	eelf32mt.c \
+	eelf32oldland.c \
 	eelf32or1k.c \
 	eelf32or1k_linux.c \
 	eelf32ppc.c \
@@ -1171,6 +1172,9 @@ eelf32or1k.c: $(srcdir)/emulparams/elf32or1k.sh \
   $(ELF_GEN_DEPS) $(srcdir)/scripttempl/elf.sc ${GEN_DEPENDS}
 
 eelf32or1k_linux.c: $(srcdir)/emulparams/elf32or1k_linux.sh \
+  $(ELF_GEN_DEPS) $(srcdir)/scripttempl/elf.sc ${GEN_DEPENDS}
+
+eelf32oldland.c: $(srcdir)/emulparams/elf32oldland.sh \
   $(ELF_GEN_DEPS) $(srcdir)/scripttempl/elf.sc ${GEN_DEPENDS}
 
 eelf32ppc.c: $(srcdir)/emulparams/elf32ppc.sh \

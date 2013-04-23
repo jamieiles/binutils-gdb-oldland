@@ -496,6 +496,8 @@ DESCRIPTION
 .#define bfd_mach_aarch64_ilp32	32
 .  bfd_arch_nios2,
 .#define bfd_mach_nios2	0
+.  bfd_arch_oldland, {* Oldland *}
+#define bfd_mach_oldland 0
 .  bfd_arch_last
 .  };
 */
@@ -592,6 +594,9 @@ extern const bfd_arch_info_type bfd_nds32_arch;
 extern const bfd_arch_info_type bfd_nios2_arch;
 extern const bfd_arch_info_type bfd_ns32k_arch;
 extern const bfd_arch_info_type bfd_or1k_arch;
+extern const bfd_arch_info_type bfd_openrisc_arch;
+extern const bfd_arch_info_type bfd_or32_arch;
+extern const bfd_arch_info_type bfd_oldland_arch;
 extern const bfd_arch_info_type bfd_pdp11_arch;
 extern const bfd_arch_info_type bfd_pj_arch;
 extern const bfd_arch_info_type bfd_plugin_arch;
@@ -681,6 +686,7 @@ static const bfd_arch_info_type * const bfd_archures_list[] =
     &bfd_nios2_arch,
     &bfd_ns32k_arch,
     &bfd_or1k_arch,
+    &bfd_oldland_arch,
     &bfd_pdp11_arch,
     &bfd_powerpc_arch,
     &bfd_rs6000_arch,

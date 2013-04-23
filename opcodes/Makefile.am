@@ -210,6 +210,8 @@ TARGET_LIBOPCODES_CFILES = \
 	nios2-dis.c \
 	nios2-opc.c \
 	ns32k-dis.c \
+	oldland-dis.c \
+	oldland-opc.c \
 	or1k-asm.c \
 	or1k-desc.c \
 	or1k-dis.c \

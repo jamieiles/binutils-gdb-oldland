@@ -764,6 +764,7 @@ extern const bfd_target nds32_elf32_linux_be_vec;
 extern const bfd_target nds32_elf32_linux_le_vec;
 extern const bfd_target nios2_elf32_be_vec;
 extern const bfd_target nios2_elf32_le_vec;
+extern const bfd_target oldland_elf32_le_vec;
 extern const bfd_target ns32k_aout_pc532mach_vec;
 extern const bfd_target ns32k_aout_pc532nbsd_vec;
 extern const bfd_target oasys_vec;
@@ -1235,6 +1236,8 @@ static const bfd_target * const _bfd_target_vector[] =
 
 	&nios2_elf32_be_vec,
 	&nios2_elf32_le_vec,
+
+	&oldland_elf32_le_vec,
 
 	&ns32k_aout_pc532mach_vec,
 	&ns32k_aout_pc532nbsd_vec,

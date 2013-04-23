@@ -167,6 +167,7 @@ TARGET_CPU_CFILES = \
 	config/tc-nds32.c \
 	config/tc-nios2.c \
 	config/tc-ns32k.c \
+	config/tc-oldland.c \
 	config/tc-or1k.c \
 	config/tc-pdp11.c \
 	config/tc-pj.c \
