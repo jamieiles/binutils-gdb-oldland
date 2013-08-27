@@ -6068,6 +6068,11 @@ assembler and not (currently) written to any object files.  */
 
 /* Adapteva EPIPHANY - 8 bit immediate for 16 bit mov instruction.  */
   BFD_RELOC_EPIPHANY_IMM8,
+
+/* Oldland Relocations. */
+  BFD_RELOC_OLDLAND_13,
+  BFD_RELOC_OLDLAND_PC13,
+
   BFD_RELOC_UNUSED };
 
 typedef enum bfd_reloc_code_real bfd_reloc_code_real_type;
