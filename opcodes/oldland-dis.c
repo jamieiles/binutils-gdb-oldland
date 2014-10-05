@@ -64,7 +64,7 @@ static void print_operand(const struct oldland_operand *op, bfd_vma addr,
 
 int print_insn_oldland(bfd_vma addr, struct disassemble_info *info)
 {
-	const struct oldland_instruction *opcode;
+	const struct oldland_instruction *opcode = NULL;
 	int status;
 	bfd_byte buffer[4];
 	fprintf_ftype fpr;
