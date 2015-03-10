@@ -1174,7 +1174,7 @@ case "${targ}" in
     targ_selvecs=nios2_elf32_be_vec
     ;;
 
-  oldland-*-elf)
+  oldland-*-elf | oldland-*-rtems*)
     targ_defvec=oldland_elf32_le_vec
     ;;
 
